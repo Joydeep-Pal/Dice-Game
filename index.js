@@ -21,3 +21,9 @@ else if(random1<random2){
 else{
     document.querySelector("h1").innerHTML="Draw!";
 }
+
+document.addEventListener("keydown",function (){
+    if(event.key=="Enter"){
+        this.location.reload();
+    }
+});
